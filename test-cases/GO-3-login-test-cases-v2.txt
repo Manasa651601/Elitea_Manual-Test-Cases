@@ -1,0 +1,43 @@
+## Test Cases for Login Functionality Verification
+
+### Test Scenario ID: TS01
+### Test Scenario Description: Verify that a user can log in with valid credentials.
+### Test Case ID: TC01-1
+### Test Case Description: Log in with a valid username and password.
+### Preconditions: The user is on the login page of the Sauce Demo website.
+### Test Steps:
+1. Enter a valid username in the username field.
+2. Enter the corresponding valid password in the password field.
+3. Click on the login button.
+### Expected Result: The user is redirected to the products page after successful login.
+### Actual Result: 
+
+### Test Case ID: TC01-2
+### Test Case Description: Log in with an invalid username and valid password.
+### Preconditions: The user is on the login page of the Sauce Demo website.
+### Test Steps:
+1. Enter an invalid username in the username field.
+2. Enter a valid password in the password field.
+3. Click on the login button.
+### Expected Result: The user receives an error message indicating the username is incorrect.
+### Actual Result: 
+
+### Test Case ID: TC01-3
+### Test Case Description: Log in with a valid username and invalid password.
+### Preconditions: The user is on the login page of the Sauce Demo website.
+### Test Steps:
+1. Enter a valid username in the username field.
+2. Enter an invalid password in the password field.
+3. Click on the login button.
+### Expected Result: The user receives an error message indicating the password is incorrect.
+### Actual Result: 
+
+### Test Case ID: TC01-4
+### Test Case Description: Log in with empty username and password fields.
+### Preconditions: The user is on the login page of the Sauce Demo website.
+### Test Steps:
+1. Leave the username field empty.
+2. Leave the password field empty.
+3. Click on the login button.
+### Expected Result: The user receives an error message indicating that username and password fields cannot be empty.
+### Actual Result: 
