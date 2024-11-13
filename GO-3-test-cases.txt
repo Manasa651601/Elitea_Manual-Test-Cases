@@ -1,0 +1,12 @@
+Test Cases for Jira Ticket GO-3:
+
+1. Verify that a user can successfully log in with valid credentials.
+2. Verify that an error message is displayed when trying to log in with invalid credentials.
+3. Verify that a user can add an item to the cart from the products page.
+4. Verify that the correct item and quantity are displayed in the cart after adding an item.
+5. Verify that a user can remove an item from the cart.
+6. Verify that the cart is updated correctly after removing an item.
+7. Verify that a user can proceed to checkout.
+8. Verify that the user can complete the checkout process with valid information.
+9. Verify that an error message is displayed if the checkout process is attempted with invalid information.
+10. Verify that the order confirmation page displays the correct order details after checkout.
