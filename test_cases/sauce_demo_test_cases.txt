@@ -1,0 +1,56 @@
+# Test Scenario ID: TS01
+# Test Scenario Description: Verify that users can log in to the Sauce Demo website.
+# Test Case ID: TC01-01
+# Test Case Description: Log in with valid credentials.
+# Preconditions: User is on the Sauce Demo login page.
+# Test Steps:
+1. Enter the valid username in the username field.
+2. Enter the valid password in the password field.
+3. Click on the login button.
+# Expected Result: User is redirected to the products page after a successful login.
+# Actual Result: 
+
+# Test Scenario ID: TS02
+# Test Scenario Description: Verify that users cannot log in with invalid credentials.
+# Test Case ID: TC02-01
+# Test Case Description: Log in with an invalid username and valid password.
+# Preconditions: User is on the Sauce Demo login page.
+# Test Steps:
+1. Enter an invalid username in the username field.
+2. Enter a valid password in the password field.
+3. Click on the login button.
+# Expected Result: User receives an error message indicating the username and password do not match.
+# Actual Result: 
+
+# Test Scenario ID: TS03
+# Test Scenario Description: Verify the logout functionality.
+# Test Case ID: TC03-01
+# Test Case Description: Log out from the products page.
+# Preconditions: User is logged in and on the products page.
+# Test Steps:
+1. Click on the menu button on the top left corner.
+2. Click on the logout link.
+# Expected Result: User is redirected to the login page.
+# Actual Result: 
+
+# Test Scenario ID: TS04
+# Test Scenario Description: Verify that the product inventory is accessible and correctly displayed.
+# Test Case ID: TC04-01
+# Test Case Description: Access the product inventory.
+# Preconditions: User is logged in and on the products page.
+# Test Steps:
+1. Verify that the product list is visible.
+2. Verify that each product has a name, description, and price.
+# Expected Result: The product inventory is displayed with all products having a name, description, and price.
+# Actual Result: 
+
+# Test Scenario ID: TS05
+# Test Scenario Description: Verify the add-to-cart functionality.
+# Test Case ID: TC05-01
+# Test Case Description: Add a product to the cart.
+# Preconditions: User is logged in and on the products page.
+# Test Steps:
+1. Click on the "Add to cart" button for a specific product.
+2. Click on the shopping cart icon.
+# Expected Result: The product is added to the cart, and the cart displays the correct number of items.
+# Actual Result: 
