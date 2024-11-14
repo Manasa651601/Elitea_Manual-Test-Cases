@@ -1,0 +1,59 @@
+# Test Scenario ID: TS01
+# Test Scenario Description: Verify that a user can log in with valid credentials.
+# Test Case ID: TC01-1
+# Test Case Description: Log in with a valid username and password.
+# Preconditions: The user is on the Sauce Demo login page.
+# Test Steps:
+1. Enter the valid username "standard_user" in the username field.
+2. Enter the valid password "secret_sauce" in the password field.
+3. Click on the login button.
+# Expected Result: The user is redirected to the products page, indicating a successful login.
+# Actual Result: 
+
+# Test Scenario ID: TS02
+# Test Scenario Description: Verify that a user cannot log in with invalid credentials.
+# Test Case ID: TC02-1
+# Test Case Description: Log in with an invalid username and password.
+# Preconditions: The user is on the Sauce Demo login page.
+# Test Steps:
+1. Enter an invalid username "invalid_user" in the username field.
+2. Enter an invalid password "invalid_password" in the password field.
+3. Click on the login button.
+# Expected Result: The user remains on the login page and receives an error message indicating invalid login credentials.
+# Actual Result: 
+
+# Test Scenario ID: TS03
+# Test Scenario Description: Verify that a user cannot log in with an empty username.
+# Test Case ID: TC03-1
+# Test Case Description: Try to log in without entering a username.
+# Preconditions: The user is on the Sauce Demo login page.
+# Test Steps:
+1. Leave the username field empty.
+2. Enter the valid password "secret_sauce" in the password field.
+3. Click on the login button.
+# Expected Result: The user remains on the login page and receives an error message indicating that the username is required.
+# Actual Result: 
+
+# Test Scenario ID: TS04
+# Test Scenario Description: Verify that a user cannot log in with an empty password.
+# Test Case ID: TC04-1
+# Test Case Description: Try to log in without entering a password.
+# Preconditions: The user is on the Sauce Demo login page.
+# Test Steps:
+1. Enter the valid username "standard_user" in the username field.
+2. Leave the password field empty.
+3. Click on the login button.
+# Expected Result: The user remains on the login page and receives an error message indicating that the password is required.
+# Actual Result: 
+
+# Test Scenario ID: TS05
+# Test Scenario Description: Verify the login page for a locked-out user.
+# Test Case ID: TC05-1
+# Test Case Description: Log in with a locked-out user's credentials.
+# Preconditions: The user is on the Sauce Demo login page.
+# Test Steps:
+1. Enter the username "locked_out_user" in the username field.
+2. Enter the valid password "secret_sauce" in the password field.
+3. Click on the login button.
+# Expected Result: The user remains on the login page and receives an error message indicating that the user has been locked out.
+# Actual Result: 
